@@ -231,19 +231,19 @@ header.smaller .Navigation li { height: 60px; }
 	/* <<< Contact Section >>> */
 	.Contact_sec { width: 100%; overflow: hidden; }
 	.Contact_sec .Contactside { background: url(../img/Contact-bg.jpg) top center no-repeat; background-size: cover; overflow: hidden;}
-	.Contact_sec .Center { padding: 115px 0px 77px 0px;  max-width: 1100px; margin: auto; overflow: hidden; text-align: center; }
+	.Contact_sec .Center { padding: 85px 0px 0px 0px;  max-width: 1100px; margin: auto; overflow: hidden; text-align: center; }
 	.Contact_sec h2 { font-size: 57px; color: #fff; font-family: 'Oswald', sans-serif; font-weight: 400; margin: 0px; text-transform: uppercase; line-height: 60px;}
 	.Contact_sec p { padding: 24px 0px 35px 0px; font-size: 14px; color: #ebebeb; margin: 0px; font-family: 'Open Sans', sans-serif; line-height: 25px; font-weight: 400; }
 	.Contact_sec .Line { border: solid 1px #ff9408; height: 2px; width: 252px; margin: auto; }
 	.Contact_sec .Pricingside { padding: 70px 0px 10px 0px; width: 100%; overflow: hidden; text-align: initial; }
-	.Contact_sec .Mid { padding: 76px 0px 95px 0px; max-width: 1100px; margin: auto; overflow: hidden; }
+	.Contact_sec .Mid { padding: 40px 0px 95px 0px; max-width: 1100px; margin: auto; overflow: hidden; }
 	.Contact_sec .Leftside { width: 48.2%; float: left; }
 	.Contact_sec .Leftside fieldset { padding: 0px; margin: 0px; }
 	.Contact_sec .Leftside p { padding: 0px; margin: 0px 0px 25px 0px;  }
 	.Contact_sec .Leftside input.field { padding: 18px 20px 17px 20px; font-size: 14px; color: #979797; font-family: 'Open Sans', sans-serif; font-weight: 400; border: 0px; width: 100%; box-shadow: 0px 2px 6px 0px #242424; -webkit-box-shadow: 0px 2px 6px 0px #242424; -moz-box-shadow: 0px 2px 6px 0px #242424;
 		-o-box-shadow: 0px 2px 6px 0px #242424; border-radius: 0px; }
 	.Contact_sec .Leftside input:focus { outline: none;}
-	.Contact_sec .Leftside textarea { padding: 18px 20px 17px 20px; font-size: 14px; color: #979797; font-family: 'Open Sans', sans-serif; font-weight: 400; border: 0px; width: 100%; height: 156px; resize:none; box-shadow: 0px 2px 6px 0px #242424; -webkit-box-shadow: 0px 2px 6px 0px #242424; -moz-box-shadow: 0px 2px 6px 0px #242424; -o-box-shadow: 0px 2px 6px 0px #242424; border-radius: 0px; }
+	.Contact_sec .Leftside textarea { padding: 18px 20px 17px 20px; font-size: 14px; color: #979797; font-family: 'Open Sans', sans-serif; font-weight: 400; border: 0px; width: 100%; height: 130px; resize:none; box-shadow: 0px 2px 6px 0px #242424; -webkit-box-shadow: 0px 2px 6px 0px #242424; -moz-box-shadow: 0px 2px 6px 0px #242424; -o-box-shadow: 0px 2px 6px 0px #242424; border-radius: 0px; }
 	.Contact_sec .Leftside textarea:focus { outline: none;}
 	.Contact_sec .Leftside .button { padding: 16px 0px 17px 0px; margin-top: -3px; font-size: 14px; color: #e9ecee; font-family: 'Open Sans', sans-serif; font-weight: 700; text-align: center; background: #e2850a; border: 0px; text-transform:uppercase; width: 100%; cursor: pointer; box-shadow: 0px 2px 6px 0px #242424; -webkit-box-shadow: 0px 2px 6px 0px #242424; -moz-box-shadow: 0px 2px 6px 0px #242424; -o-box-shadow: 0px 2px 6px 0px #242424; border-radius: 0px; transition: all 0.3s ease;}
 	.Contact_sec .Leftside .button:hover { background: #2d2d2d; color: #fff;}
