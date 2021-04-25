@@ -172,29 +172,22 @@ header.smaller .Navigation li { height: 60px; }
 	.Services_sec h2 { font-size: 56px; color: #fff; font-family: 'Oswald', sans-serif; font-weight: 400; margin: 0px; text-transform: uppercase; line-height: 60px; }
 	.Services_sec p { padding: 25px 0px 35px 0px; font-size: 14px; color: #d8dfe5; margin: 0px; font-family: 'Open Sans', sans-serif; line-height: 25px; font-weight: 400; }
 	.Services_sec .Line { border: solid 1px #ff9408; height: 2px; width: 252px; margin: auto; }
-	.Services_sec .Serviceside { padding: 76px 0px 30px 0px; width: 100%; overflow: hidden; }
+	.Services_sec .Serviceside { padding: 76px 0px 0px 0px; width: 100%; overflow: hidden; }
 	.Services_sec .Serviceside ul { list-style: none; margin: 0px }
-	.Services_sec .Serviceside li { float: left; padding: 0px; margin: 0px 40px 0px 0px; text-align: center; width: 245px; }
+	.Services_sec .Serviceside a { float: left; margin: 0px 30px 0px 0px; }
+	.Services_sec .Serviceside a li { box-shadow: 1px 4px 7px -4px rgba(0,0,0,0.75); float: left; padding: 0px 0px 200px 0px; margin: 0px 30px 0px 0px; text-align: center; width: 150px; }
 	.Services_sec .Serviceside li:last-child { margin-right: 0px;}
-	.Services_sec .Serviceside li.Development { padding: 44px 0px 161px 0px; background: url(../img/Development-bg.jpg) no-repeat;box-shadow: 1px 4px 7px -4px rgba(0,0,0,0.75); }	.Services_sec .Serviceside li.Development a { text-decoration: none; background: url(../img/Development-cn.png) top center no-repeat; display: block; }
-	.Services_sec .Serviceside li.Development h4 { padding: 138px 0px 0px 0px;  font-size: 17px; color: #03a4df; text-decoration: none; text-transform: uppercase; font-family: 'Open Sans', sans-serif; font-weight: 400;  }
-	.Services_sec .Serviceside li.Development a:hover h4 { color: #fff; background: url(../img/Develop-hover-icn.png) top center no-repeat; }
-
-	.Services_sec .Serviceside li.Desdin { padding: 44px 0px 159px 0px;background: url(../img/desgin-bg.jpg) no-repeat; box-shadow: 1px 4px 7px -4px rgba(0,0,0,0.75);  }
-	.Services_sec .Serviceside li.Desdin a { text-decoration: none; background: url(../img/desgin-icn.png) top center no-repeat; display: block; }
-	.Services_sec .Serviceside li.Desdin h4 { padding: 138px 0px 0px 0px;  font-size: 18px; color: #ffab3f; text-decoration: none; text-transform: uppercase; font-family: 'Open Sans', sans-serif; font-weight: 400;  }
-	.Services_sec .Serviceside li.Desdin a:hover h4 { color: #fff; background: url(../img/desgin-hover-icn.png) top center no-repeat; }
-
-	.Services_sec .Serviceside li.Concept { padding: 44px 0px 159px 0px; background: url(../img/concept-bg.jpg) no-repeat; box-shadow: 1px 4px 7px -4px rgba(0,0,0,0.75);  }
-	.Services_sec .Serviceside li.Concept a { text-decoration: none; background: url(../img/concept-icn.png) top center no-repeat; display: block; }
-	.Services_sec .Serviceside li.Concept h4 { padding: 138px 0px 0px 0px; font-size: 18px; color: #ae382d; text-decoration: none; text-transform: uppercase;font-family: 'Open Sans', sans-serif; font-weight: 400; }
-	.Services_sec .Serviceside li.Concept a:hover h4 { color: #fff; background: url(../img/concept-hover-icn.png) top center no-repeat; }
-
-	.Services_sec .Serviceside li.System { padding: 44px 0px 159px 0px;background: url(../img/systam-bg.jpg) no-repeat; box-shadow: 1px 4px 7px -4px rgba(0,0,0,0.75);  }
-	.Services_sec .Serviceside li.System a { text-decoration: none; background: url(../img/systam-icn.png) top center no-repeat; display: block; }
-	.Services_sec .Serviceside li.System h4 { padding: 138px 0px 0px 0px;  font-size: 18px; color: #5e5f61; text-decoration: none; letter-spacing: -1px; text-transform: uppercase; font-family: 'Open Sans', sans-serif; font-weight: 400;  }
-	.Services_sec .Serviceside li.System a:hover h4 { color: #fff; background: url(../img/systam-hover-icn.png) top center no-repeat;}
+	.Services_sec .Serviceside a {text-decoration: none; display: block; }
+	.Services_sec .Serviceside a li h4 { padding: 10px 0px 0px 0px;  font-size: 17px; color: #03a4df; text-decoration: none; font-family: 'Open Sans', sans-serif; font-weight: 400;  }
+	.Services_sec .Serviceside a li:hover h4 { color: #fff;}
 	
+	.Services_sec .Serviceside li.WhiteWholes { background: url(../img/white-whole-bg.jpg) no-repeat;}
+	.Services_sec .Serviceside li.ScorchedWholes { background: url(../img/scorched-wholes-bg.jpg) no-repeat;}
+	.Services_sec .Serviceside li.DessertWholes {background: url(../img/dessert-wholes-bg.jpg) no-repeat;}
+	.Services_sec .Serviceside li.WhitePieces {background: url(../img/white-pieces-bg.jpg) no-repeat;}
+	.Services_sec .Serviceside li.ScorchedPieces { background: url(../img/scorched-pieces-bg.jpg) no-repeat;}
+	.Services_sec .Serviceside li.DessertPieces { background: url(../img/dessert-pieces-bg.jpg) no-repeat;}
+
 	/* <<< Pricing Section >>> */
 	.Pricing_sec { padding: 112px 0px 108px 0px ; width: 100%; overflow: hidden; background: #ececec; }
 	.Pricing_sec .Center { max-width: 1100px; margin: auto; overflow: hidden; text-align: center; }
