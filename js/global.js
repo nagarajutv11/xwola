@@ -62,12 +62,14 @@ function onScroll(event){
 --------------------------------------------*/
 $(document).ready(function(){
   //slider
-  var sudoSlider = $("#slider").sudoSlider({
-   effect: "fade",
-   pause: 3000,
-   auto:true,
-   continuous:true
- });
+  var sudoSlider = $("#slider1, #slider2").each(function() {
+    $(this).sudoSlider({
+     effect: "fade",
+     pause: 3000,
+     auto:true,
+     continuous:true
+   })
+  });
 
   //mobilemenu
   $('.mobile').click(function(){
