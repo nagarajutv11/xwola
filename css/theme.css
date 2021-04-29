@@ -181,12 +181,12 @@ header.smaller .Navigation li { height: 60px; }
 	.Services_sec .Serviceside a li h4 { padding: 10px 0px 0px 0px;  font-size: 17px; color: #003399; text-decoration: none; font-family: 'Open Sans', sans-serif; font-weight: 400;  }
 	.Services_sec .Serviceside a li:hover h4 { color: #fff;}
 	
-	.Services_sec .Serviceside li.WhiteWholes { background: url(../img/colors/white-wholes.png) no-repeat;  background-size: auto 100%; }
-	.Services_sec .Serviceside li.ScorchedWholes { background: url(../img/colors/scorched-wholes.png) no-repeat;  background-size: auto 100%; }
-	.Services_sec .Serviceside li.DessertWholes {background: url(../img/colors/dessert-wholes.png) no-repeat;  background-size: auto 100%; }
-	.Services_sec .Serviceside li.WhitePieces {background: url(../img/colors/white-pieces.png) no-repeat;  background-size: auto 100%; }
-	.Services_sec .Serviceside li.ScorchedPieces { background: url(../img/colors/scorched-pieces.png) no-repeat;  background-size: auto 100%; }
-	.Services_sec .Serviceside li.DessertPieces { background: url(../img/colors/dessert-pieces.png) no-repeat;  background-size: auto 100%; }
+	.Services_sec .Serviceside li.WhiteWholes { background: url(../img/colors/white-wholes.jpg) no-repeat;  background-size: auto 100%; }
+	.Services_sec .Serviceside li.ScorchedWholes { background: url(../img/colors/scorched-wholes.jpg) no-repeat;  background-size: auto 100%; }
+	.Services_sec .Serviceside li.DessertWholes {background: url(../img/colors/dessert-wholes.jpg) no-repeat;  background-size: auto 100%; }
+	.Services_sec .Serviceside li.WhitePieces {background: url(../img/colors/white-pieces.jpg) no-repeat;  background-size: auto 100%; }
+	.Services_sec .Serviceside li.ScorchedPieces { background: url(../img/colors/scorched-pieces.jpg) no-repeat;  background-size: auto 100%; }
+	.Services_sec .Serviceside li.DessertPieces { background: url(../img/colors/dessert-pieces.jpg) no-repeat;  background-size: auto 100%; }
 
 	.ProductHeader{ padding: 80px 0px 0px 0px ; width: 100%; overflow: hidden; background: #ececec; }
 	.ProductHeader .Center { max-width: 1100px; width: 70%; margin: auto; overflow: hidden; text-align: center; }
