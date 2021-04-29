@@ -175,36 +175,36 @@ header.smaller .Navigation li { height: 60px; }
 	.Services_sec .Serviceside { padding: 76px 0px 0px 0px; width: 100%; overflow: hidden; }
 	.Services_sec .Serviceside ul { list-style: none; margin: 0px }
 	.Services_sec .Serviceside a { float: left; margin: 0px 30px 30px 0px; }
-	.Services_sec .Serviceside a li { box-shadow: 1px 4px 7px -4px rgba(0,0,0,0.75); float: left; padding: 0px 0px 200px 0px; margin: 0px 30px 0px 0px; text-align: center; width: 150px; }
+	.Services_sec .Serviceside a li {box-shadow: 1px 4px 7px -4px rgba(0,0,0,0.75); float: left; padding: 0px 0px 200px 0px; margin: 0px 30px 0px 0px; text-align: center; width: 150px; }
 	.Services_sec .Serviceside li:last-child { margin-right: 0px;}
 	.Services_sec .Serviceside a {text-decoration: none; display: block; }
 	.Services_sec .Serviceside a li h4 { padding: 10px 0px 0px 0px;  font-size: 17px; color: #003399; text-decoration: none; font-family: 'Open Sans', sans-serif; font-weight: 400;  }
 	.Services_sec .Serviceside a li:hover h4 { color: #fff;}
 	
-	.Services_sec .Serviceside li.WhiteWholes { background: url(../img/white-whole-bg.jpg) no-repeat;}
-	.Services_sec .Serviceside li.ScorchedWholes { background: url(../img/scorched-wholes-bg.jpg) no-repeat;}
-	.Services_sec .Serviceside li.DessertWholes {background: url(../img/dessert-wholes-bg.jpg) no-repeat;}
-	.Services_sec .Serviceside li.WhitePieces {background: url(../img/white-pieces-bg.jpg) no-repeat;}
-	.Services_sec .Serviceside li.ScorchedPieces { background: url(../img/scorched-pieces-bg.jpg) no-repeat;}
-	.Services_sec .Serviceside li.DessertPieces { background: url(../img/dessert-pieces-bg.jpg) no-repeat;}
+	.Services_sec .Serviceside li.WhiteWholes { background: url(../img/colors/white-wholes.png) no-repeat;  background-size: auto 100%; }
+	.Services_sec .Serviceside li.ScorchedWholes { background: url(../img/colors/scorched-wholes.png) no-repeat;  background-size: auto 100%; }
+	.Services_sec .Serviceside li.DessertWholes {background: url(../img/colors/dessert-wholes.png) no-repeat;  background-size: auto 100%; }
+	.Services_sec .Serviceside li.WhitePieces {background: url(../img/colors/white-pieces.png) no-repeat;  background-size: auto 100%; }
+	.Services_sec .Serviceside li.ScorchedPieces { background: url(../img/colors/scorched-pieces.png) no-repeat;  background-size: auto 100%; }
+	.Services_sec .Serviceside li.DessertPieces { background: url(../img/colors/dessert-pieces.png) no-repeat;  background-size: auto 100%; }
 
-	.ProductHeader{ padding: 80px 0px 90px 0px ; width: 100%; overflow: hidden; background: #ececec; }
+	.ProductHeader{ padding: 80px 0px 0px 0px ; width: 100%; overflow: hidden; background: #ececec; }
 	.ProductHeader .Center { max-width: 1100px; width: 70%; margin: auto; overflow: hidden; text-align: center; }
-	.ProductHeader .Center .content { display: flex; flex-wrap: wrap;}
-	.ProductHeader .Line { border: solid 1px #ff9408; height: 2px; width: 252px; margin: auto; }
+	.ProductHeader .Center .content { display: flex; flex-wrap: wrap; margin-bottom: 20px;}
+	.ProductHeader .Line { border: solid 1px #ff9408; height: 2px; width: 252px; margin: auto; margin-bottom: 30px;}
 	.ProductHeader h2 { font-size: 56px; color: #000; font-family: 'Oswald', sans-serif; font-weight: 400; margin-bottom: 20px; text-transform: uppercase; line-height: 60px; letter-spacing: -0.4px; }
 	.ProductHeader .Item { width: 30%; margin-right: 10px;}
 	.ProductHeader .Item p { color: #000;}
 	
 	.Suppliers { width: 100%; background: url(../img/Banner-bg.jpg) top center no-repeat; height: 687px; position: relative; background-size: cover; }
-	.Suppliers .bannerside { width: 100%; position: absolute; top: 150px; left: 0px; }
-	.Suppliers .Center { max-width: 1100px; margin: auto; }
+	.Suppliers .bannerside { width: 100%; position: absolute; top: 80px; left: 0px;}
+	.Suppliers .Center { max-width: 1100px; margin: auto; display: flex; flex-wrap: wrap;}
 
-	.Suppliers .leftside { width: 32.36%; position: relative; }
+	.Suppliers .leftside { width: 30%; position: relative; }
 	.Suppliers .leftside .bx-wrapper { position: relative; z-index: 1; }
 	.Suppliers .leftside ul { list-style: none; margin: 0px; }
 	.Suppliers .leftside li { padding: 0px; margin: 0; float: none!important; }
-	.Suppliers .leftside #slider { width: 100%; position: relative; z-index: 1; }
+	.Suppliers .leftside #slider { width: 60%; position: relative; z-index: 1; height: 530px;}
 	.Suppliers .leftside .Slider .text { padding: 25px 47px 21px 30px; position: absolute; bottom: 0px; left: 0px; width: 100%; background: rgba(0, 0, 0, 0.7); }
 	.Suppliers .leftside .Slider .text .Icon { width: 38%; float: left; }
 	.Suppliers .leftside .Slider .text ul { list-style: none; margin: 0px; }
@@ -218,11 +218,15 @@ header.smaller .Navigation li { height: 60px; }
 	.Suppliers .leftside .Slider .text .Lorem { float: right; width: 31%; }
 	.Suppliers .leftside .Slider .text .Lorem p { padding-top: 5px; font-size: 18px; color: #fff; margin: 0px; font-family: 'Open Sans', sans-serif; font-weight: 400; text-transform: uppercase; text-align: right; line-height: 19px; }
 	.Suppliers .leftside .Slider .text .Lorem p span { font-size: 14px; text-align: right; color: #ff9000; display: block; text-transform: capitalize;}
-	.Suppliers .leftside .prevBtn { width: 42px; height: 42px; display: block; text-indent: -9999px; background: url(../img/prev-arrow.png) no-repeat; position: absolute; top: 90px; left: 49px;  z-index: 1; opacity: 0.5; transition: opacity 0.3s ease; }
+	.Suppliers .leftside .prevBtn { width: 42px; height: 42px; display: block; text-indent: -9999px; background: url(../img/prev-arrow.png) no-repeat; position: absolute; top: 250px; left: 15px;  z-index: 1; opacity: 0.5; transition: opacity 0.3s ease; }
 	.Suppliers .leftside .prevBtn:hover {  opacity: 1; }	
-	.Suppliers .leftside .nextBtn { width: 42px; height: 42px; display: block; text-indent: -9999px; background: url(../img/next-arrow.png) no-repeat; position: absolute; top: 90px; right: 47px;  z-index: 1; opacity: 0.5; transition: opacity 0.3s ease; }
+	.Suppliers .leftside .nextBtn { width: 42px; height: 42px; display: block; text-indent: -9999px; background: url(../img/next-arrow.png) no-repeat; position: absolute; top: 250px; right: 15px;  z-index: 1; opacity: 0.5; transition: opacity 0.3s ease; }
 	.Suppliers .leftside .nextBtn:hover { opacity: 1; }	
-	.Suppliers .leftside .Shadow { position: absolute; bottom: -3px; left: -25px; max-width: none; }
+	.Suppliers .leftside .Shadow { position: absolute; bottom: -3px; left: -10px; max-width: none; width: 105%}
+	.Suppliers .rightside {margin-left: 10%;}
+	.Suppliers .rightside h3 {font-size: 40px; color: #fff;}
+	.Suppliers .rightside p {font-size: 18px; color: #fff;}
+	.Suppliers .rightside li {font-size: 20px; color: #fff; list-style-type: circle;}
 
 
 	/* <<< Pricing Section >>> */
