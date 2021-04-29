@@ -56,12 +56,12 @@ body { background: #fff; }
 /* <<< Header >>> */
 header { width: 100%; position: fixed; top: 0px; left: 0px; height: 105px; background: rgba(0, 0, 0, 0.5); z-index: 9; }
 header .Center { max-width: 1100px; margin: auto; }
-header .site-logo { padding: 30px 0px 0px 0px; width: 220px; float: left; transition: all 0.3s;  }
+header .site-logo { padding-top: 25px; width: 10%; float: left; transition: all 0.3s;  }
 header .site-logo h1 { margin: 0px; }
 header .site-logo h1 a { font-size: 36px; color: #fff; font-family: 'Open Sans', sans-serif; font-weight: 800; text-decoration: none; text-transform: uppercase; text-shadow: rgb(3, 3, 3) 0px 2px 5px; transition: all 0.7s ease;  }
 header .site-logo h1 a span { color: #ff9000; }
 header.smaller { padding: 0px 0px 0px 0px; height: 60px; transition: all 0.3s; background: rgba(0, 0, 0, 0.75); }
-header.smaller .site-logo {padding: 13px 0px 0px 0px; }
+header.smaller .site-logo { padding-top: 2px; width: 10%; }
 header.smaller .site-logo h1 { line-height: 30px; }
 header.smaller .site-logo h1 a { font-size: 30px;  }
 
@@ -104,6 +104,7 @@ header.smaller .Navigation li { height: 60px; }
 .Banner_sec { width: 100%; background: url(../img/Banner-bg.jpg) top center no-repeat; height: 687px; position: relative; background-size: cover; }
 .Banner_sec .bannerside { width: 100%; position: absolute; top: 150px; left: 0px; }
 .Banner_sec .Center { max-width: 1100px; margin: auto; }
+.Banner_sec .leftside img { padding-bottom: 25px; width: 90%; float: left;}
 .Banner_sec .leftside { padding: 92px 0px 0px 0px; width: 28.90%; float: left; }
 .Banner_sec .leftside h3 { font-size: 36px; color: #fff; font-family: 'Open Sans', sans-serif; font-weight: 800; margin: 0px; line-height: 34px;}
 .Banner_sec .leftside h3 span { color: #ff9000; font-family: 'Open Sans', sans-serif; font-weight: 600; display: block; }
