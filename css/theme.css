@@ -133,7 +133,7 @@ header.smaller .Navigation li { height: 60px; }
 .Banner_sec .rightside .prevBtn:hover {  opacity: 1; }	
 .Banner_sec .rightside .nextBtn { width: 42px; height: 42px; display: block; text-indent: -9999px; background: url(../img/next-arrow.png) no-repeat; position: absolute; top: 50%; right: 47px;  z-index: 1; opacity: 0.5; transition: opacity 0.3s ease; }
 .Banner_sec .rightside .nextBtn:hover { opacity: 1; }	
-.Banner_sec .rightside .Shadow { position: absolute; bottom: -3px; left: -25px; max-width: none; }
+.Banner_sec .rightside .Shadow { position: absolute; bottom: 44px; left: -28px; max-width: none; }
 
 /* <<< bg color>>> */
 .bgcolor {  height: 74px; width: 100%; background: rgba(249,250,251,1); background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(249,250,251,1)), color-stop(0%, rgba(249,250,251,1)), color-stop(100%, rgba(225,228,231,1)));
