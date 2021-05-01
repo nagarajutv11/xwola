@@ -41,7 +41,7 @@ http://www.templatemo.com/tm-473-november
 
 	header { width: 100%; height: 87px; }
 	header .Center { width: 100%; padding: 0px 2%; }
-	header .site-logo { padding: 27px 0 0 1px;  position: relative; z-index: 1; }
+	header .site-logo { width: 20%; padding: 2%;  position: relative; z-index: 1; }
 	header .site-logo h1 { line-height: 33px; }	
 	header.smaller .Navigation li a { padding: 16px 20px; }
 
@@ -104,10 +104,10 @@ http://www.templatemo.com/tm-473-november
 
 	header { width: 100%; position: absolute; height: 57px; }
 	header .Center { width: 100%;}
-	header .site-logo { padding: 10px 0% 0px 3%; position: relative; z-index: 1; }
+	header .site-logo { width: 20%; padding: 2%; position: relative; z-index: 1; }
 	header .site-logo h1 { margin: 0px; line-height: 36px; }
 	header.smaller { height: 55px;}
-	header.smaller .site-logo { padding: 10px 0% 0px 3%; }
+	header.smaller .site-logo { width: 20%; padding: 2%; }
 	header.smaller .site-logo h1 a { font-size: 36px; }
 	
 	#mobile_sec { position: fixed; width: 100%;}
