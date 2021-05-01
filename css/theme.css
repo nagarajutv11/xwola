@@ -179,6 +179,7 @@ header.smaller .Navigation li { height: 60px; }
 	.Services_sec .Serviceside a { float: left; margin: 15px}
 	.Services_sec .Serviceside a li {box-shadow: 1px 4px 7px -4px rgba(0,0,0,0.75); float: left; padding: 0px 0px 200px 0px; margin: 0px 30px 0px 0px; text-align: center; width: 150px; }
 	.Services_sec .Serviceside li:last-child { margin-right: 0px;}
+	.Services_sec .Serviceside a li p { padding: 0px 0px 0px 5px; position: absolute; width: 150px; text-align: center; margin: auto; font-size: 11px; line-height: 14px;}
 	.Services_sec .Serviceside a {text-decoration: none; display: block; }
 	.Services_sec .Serviceside a li h4 { padding: 10px 0px 0px 0px;  font-size: 17px; color: #003399; text-decoration: none; font-family: 'Open Sans', sans-serif; font-weight: 400;  }
 	.Services_sec .Serviceside a li:hover h4 { color: #fff;}
